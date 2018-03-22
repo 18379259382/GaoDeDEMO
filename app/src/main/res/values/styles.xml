@@ -7,5 +7,8 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
-
+    <!--继承ActionBarActivity  父类必须是AppCompat下的主题   Theme.AppCompat.Light -->
+    <style name="LouisActionBarActivityNoTitleStyle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+    </style>
 </resources>
